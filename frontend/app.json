@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "eduTest",
+    "slug": "eduTest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-light.png",
+    "scheme": "edutest",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon-light.png",
+        "backgroundColor": "#ffffff",
+        "monochromeImage": "./assets/images/icon-dark.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.eduTest"
+    },
+
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/icon-light.png"
+    },
+
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3657570b-db9f-451e-a5e7-13b6fdd86a00"
+      }
+    }
+  }
+}
