@@ -1,42 +1,61 @@
-## 📚 EDUTEST - Aplikasi Tes Pendidikan Berbasis React Native
+# 📚 EDUTEST — React Native-Based Educational Testing Application
 
-!
+## 💡 Project Description
 
-### 💡 Deskripsi Proyek
+**EDUTEST** is a cross-platform mobile application (iOS and Android) built with **React Native**, designed to provide an interactive and user-friendly platform for educational quizzes and tests. The app allows users to assess their knowledge through various question sets, automated scoring, and instant feedback. Its modular architecture ensures scalability and easy long-term maintenance.
 
-**EDUTEST** adalah aplikasi seluler lintas platform (iOS dan Android) yang dikembangkan menggunakan **React Native** yang bertujuan untuk menyediakan platform tes dan kuis pendidikan yang interaktif dan *user-friendly*. Aplikasi ini dirancang untuk membantu pengguna menguji pengetahuan mereka dalam berbagai mata pelajaran melalui serangkaian soal dan umpan balik instan.
+---
 
-### ✨ Fitur Utama
+## ✨ Key Features
 
-* **Bank Soal Beragam:** Menyediakan kuis dan tes untuk berbagai mata pelajaran atau topik.
-* **Mode Ujian Interaktif:** Pengguna dapat memulai, menjawab, dan menyelesaikan tes dengan batas waktu atau mode santai.
-* **Hasil Instan:** Menampilkan skor dan umpan balik segera setelah tes selesai.
-* **Riwayat Tes:** Menyimpan riwayat tes yang telah diselesaikan.
-* **Antarmuka Pengguna yang Intuitif:** Desain yang bersih dan mudah dinavigasi.
+- **Extensive Question Bank** — Offers quizzes and tests across multiple subjects and categories.
+- **Interactive Exam Mode** — Start and complete tests with optional time limits.
+- **Instant Results & Analysis** — Displays scores, correct/incorrect answers, and success percentages immediately after completing a test.
+- **Test History** — Stores records of all completed tests.
+- **Intuitive User Interface** — Features a clean and modern design for seamless navigation.
+- **User Authentication** — Supports Firebase Authentication, JWT, or other user auth methods.
 
-### 🛠️ Teknologi yang Digunakan
+---
 
-| Kategori | Teknologi |
-| :--- | :--- |
-| **Framework** | **React Native** |
-| **Bahasa Pemrograman** | **JavaScript (ES6+)** |
-| **Manajemen State** | *[Tambahkan di sini (misalnya: Redux, Zustand, atau Context API)]* |
-| **Navigasi** | *[Tambahkan di sini (misalnya: React Navigation)]* |
-| **Backend/Database** | *[Tambahkan di sini (misalnya: Firebase, API Lokal, dll.)]* |
+## 🛠️ Technologies Used
 
-### 🚀 Persyaratan Instalasi
+| Category | Technology | Description |
+|---------|------------|-------------|
+| **Framework** | React Native | Builds cross-platform mobile apps. |
+| **Language** | JavaScript (ES6+) | Main programming language used. |
+| **State Management** | Redux Toolkit | Centralized and predictable state management. |
+| **Navigation** | React Navigation | Handles stack, tab, and drawer navigation. |
+| **Styling** | Styled Components | Component-level styling using JavaScript. |
+| **Backend/Database** | Firebase | Provides Firestore/Realtime DB and Authentication. |
+| **HTTP Client** | Axios / Fetch API | For interacting with APIs. |
 
-Pastikan Anda telah menginstal komponen-komponen berikut di sistem Anda:
+---
 
-1.  **Node.js** (Versi LTS yang direkomendasikan)
-2.  **npm** atau **Yarn**
-3.  **React Native CLI** atau **Expo CLI** (tergantung *setup* proyek)
-4.  **JDK** dan **Android Studio** atau **Xcode** untuk menjalankan aplikasi di simulator/emulator/perangkat fisik.
+## 🚀 Installation Requirements
 
-### ⚙️ Cara Menjalankan Proyek
+Ensure the following are installed on your system:
 
-#### 1. Kloning Repositori
+1. **Node.js** LTS (recommended version **18+**)  
+2. **npm** or **Yarn**  
+3. **React Native CLI** or **Expo CLI**  
+4. **JDK (Java Development Kit)**  
+5. **Android Studio** or **Xcode**  
 
+---
+
+## ⚙️ How to Run the Project
+
+### 1. Clone the Repository
 ```bash
-git clone [https://github.com/hefrijunt/edutest-reactnative.git](https://github.com/hefrijunt/edutest-reactnative.git)
+git clone https://github.com/hefrijunt/edutest-reactnative.git
 cd edutest-reactnative
+
+---
+
+### 2. Install Dependensi
+```bash
+npm install
+# atau
+yarn install
+```
+
